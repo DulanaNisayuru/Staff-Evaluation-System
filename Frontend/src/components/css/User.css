@@ -1,0 +1,203 @@
+/* CSS for the Users Table and Form */
+.users-table-container {
+    padding: 20px;
+  }
+  
+  .users-table-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .users-table-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 8px;
+    
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .users-table th,
+  .users-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  
+  .users-table th {
+    background-color: #4b4b4ba6;
+    color: #fff;
+  }
+  
+  .users-table tr:hover {
+    background-color: #eafaf7;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 6px 12px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 4px;
+  }
+  
+  .edit-btn {
+    background-color: #5dade2;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+  }
+  
+  .edit-btn:hover {
+    background-color: #228dd4 ;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Edit Form */
+  .edit-form {
+    margin-top: 20px;
+  }
+  
+  .edit-form input[type="text"],
+  .edit-form input[type="email"],
+  .edit-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .edit-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .edit-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-form button:focus {
+    outline: none;
+  }
+  
+  .edit-form .cancel-btn {
+    background-color: #e0e0e0;
+  }
+  
+  .edit-form .cancel-btn:hover {
+    background-color: #d3d3d3;
+  }
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-dropdown {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+    
+    /* Dropdown Filters */
+.dropdown {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dropdown label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+  .dropdown select {
+    appearance: none; /* Remove default dropdown styles */
+    background-color: #f7f9fa;
+    border: 1px solid #d0d5da;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    outline: none;
+    width: 250px; /* Set a modern width */
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath fill='%232c3e50' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+  }
+  
+  .dropdown select:hover {
+    border-color: #48c9b0;
+    background-color: #eefdfb;
+  }
+  
+  .dropdown select:focus {
+    border-color: #48c9b0;
+    box-shadow: 0 0 0 2px rgba(72, 201, 176, 0.3);
+  }
+  
+  .dropdown select option {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .search-bar-container {
+    position: relative;
+    width: 37.5%; /* Adjust width as needed */
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px; /* Adjust for desired spacing */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray; /* Icon color */
+    pointer-events: none; /* Prevent interaction with the icon */
+    margin-top: -8px;
+  }
+  
+  .search-bar2 {
+    width: 100%; /* Full width of the container */
+    padding: 10px 10px 10px 35px; /* Add left padding to make room for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+  }
+  

@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.depSummary-main{
+    
+}
+td{
+    text-align: right;
+    padding: 8px;
+}
+.dep-sum-head{
+
+    display: flex;
+    justify-content: left;
+    
+}
+.dep-head{
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.monthly-target-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .dept-stat-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #00000066;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    
+  }
+  
+  .dept-stat-value {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .dept-stat-label {
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  /* General Table Styles */
+.dep-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    overflow: hidden;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Headers */
+  .dep-table th {
+    background-color: #4b4b4ba6; /* Light greenish-blue for header */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-right: 0px solid #000000; /* Subtle dividers */
+    
+    height: 10px;
+    
+  }
+  
+
+  
+  /* Table Rows */
+  .dep-table tbody tr {
+    background-color: #ffffff; /* Light grey for rows */
+    transition: background-color 0.3s ease;
+  }
+  
+  .dep-table tbody tr:hover {
+    background-color: #eafaf7; /* Slight greenish highlight on hover */
+  }
+  
+  .dep-table td {
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #00000021; /* Subtle vertical dividers */
+    font-size: 13px;
+    color: #333333;
+  }
+  
+
+  /* Total Row Styling */
+  .dep-table tbody tr:last-child {
+    background-color: #d4edda; /* Light green for total row */
+    font-weight: bold;
+  }
+  
+  .dep-table tbody tr:last-child td {
+    color: #155724; /* Darker green text for contrast */
+  }
+  
+  /* Footer Stats */
+  .dep-summary div {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  /* Rounded Borders */
+  .dep-table thead th:first-child {
+  }
+  
+  .dep-table thead th:last-child {
+    
+  }
+  
+  .dep-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  
+  .dep-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+  }
+  
+  .chart-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  .dep-head-1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .dep-barChart{
+    height: 450px;
+    width: 800px;
+  }
+
+  .dep-sum-missing{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }

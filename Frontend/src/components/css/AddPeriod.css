@@ -1,0 +1,86 @@
+/* Main container styles */
+.period-main {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .period-sub {
+    background-color: #fff; /* White background */
+    padding: 2rem;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  /* Form heading */
+  .form-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .form-group .form-input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+  }
+  
+  /* Input hover and focus effects */
+  .form-group .form-input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+    outline: none;
+  }
+  
+  /* Modern button styles */
+  .modern-button {
+    display: block;
+    width: 100px;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff; /* Primary blue color */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 350px;
+  }
+  
+  /* Button hover and active effects */
+  .modern-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px);
+  }
+  
+  .modern-button:active {
+    transform: translateY(0);
+  }
+  .col{
+    display: flex;
+    justify-content: space-between;
+    
+  }

@@ -1,0 +1,146 @@
+.all-marks-sub{
+    
+}
+
+/* General Container */
+.new-table-container {
+    margin-left: 220px; 
+    
+  }
+  
+  .new-table-content {
+    padding: 20px;
+    
+  }
+  
+  /* Heading */
+  .new-table-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Error Message */
+  .new-table-error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Dropdown Filters */
+  .new-dropdown {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .new-dropdown label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .new-dropdown select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Table Styles */
+  .new-summary-table {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  .new-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-table-headers th {
+    background-color: #4b4b4ba6;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    height: 20px;
+
+    
+  }
+  
+  .new-table-body tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-table-body tr:hover {
+    background-color: #eafaf7;
+  }
+  
+  .new-table td {
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #00000021;
+    font-size: 13px;
+    color: #333333;
+  }
+  
+  /* Total Row Styling */
+
+  
+  .new-table-body tr:last-child td {
+    color: #333333;
+  }
+  /* Dropdown Filters */
+.dropdown {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dropdown label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+  .dropdown select {
+    appearance: none; /* Remove default dropdown styles */
+    background-color: #f7f9fa;
+    border: 1px solid #d0d5da;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    outline: none;
+    width: 250px; /* Set a modern width */
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath fill='%232c3e50' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+  }
+  
+  .dropdown select:hover {
+    border-color: #48c9b0;
+    background-color: #eefdfb;
+  }
+  
+  .dropdown select:focus {
+    border-color: #48c9b0;
+    box-shadow: 0 0 0 2px rgba(72, 201, 176, 0.3);
+  }
+  
+  .dropdown select option {
+    font-size: 14px;
+    padding: 10px;
+  }
+  

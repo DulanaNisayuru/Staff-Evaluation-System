@@ -1,0 +1,35 @@
+.main{
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
+body{
+    background: #f1f1f1ad ;
+}
+
+.main-header{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translateY(-100%); /* Start off-screen */
+    opacity: 0; /* Start invisible */
+    animation: slideIn 1.0s ease-out forwards;
+    background-color: #2f4f4f;
+    padding-bottom: 10px;
+}
+.main-h3{
+    margin-top: -20px;
+    color: rgb(22, 22, 145);
+    text-decoration: underline;
+}
+.main-h1{
+    color: rgb(10, 24, 68);
+    padding-top: 30px;
+
+}
+@keyframes slideIn {
+    to {
+      transform: translateY(0); /* End in its normal position */
+      opacity: 1; /* Fully visible */
+    }
+  }

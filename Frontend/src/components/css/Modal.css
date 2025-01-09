@@ -1,0 +1,44 @@
+/* Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Make sure the modal appears on top */
+    
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    animation: popupFadeIn 0.3s ease-in-out;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+   @keyframes popupFadeIn {
+    from{
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to{
+      opacity: 1;
+      transform: scale(1);
+    }
+   }

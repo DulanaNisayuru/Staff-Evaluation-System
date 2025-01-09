@@ -1,0 +1,51 @@
+.admin-evaluate-main {
+    margin-left: 220px;
+}
+
+.dep-name-tr {
+    height: 30px;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+.marking-tbl {
+    width: 60%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the table horizontally */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1); /* Creates the 3D effect */
+    border-radius: 10px; /* Optional: rounded corners for a smooth 3D look */
+    padding: 20px; /* Adds padding inside the table container */
+    background-color: #ffffff8f; /* White background to make the 3D effect visible */
+   
+  }
+  
+  .marking-tbl table {
+    width: 100%;
+    margin-bottom: 3px;
+    
+  }
+  
+  .marking-tbl th, .marking-tbl td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .marking-tbl td {
+    vertical-align: middle; /* Ensures vertical centering of text in cells */
+  }
+
+  .period-btn{
+    display: flex;
+    justify-content: space-around;
+  }
+ 
+  .btn-save {
+    background-color:#007bff;
+    margin-top: 0px;
+    width:200px;
+    height:40px;
+  }
